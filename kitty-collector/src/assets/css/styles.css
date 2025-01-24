@@ -1,0 +1,32 @@
+@import url(./fonts.css);
+
+:root {
+  --main-font: "Silkscreen", serif;
+  --card-font: "Space Mono", serif;
+  --white: rgb(255, 255, 255);
+  --light-blue: rgb(0, 179, 250);
+  --light-gray: rgb(187, 187, 187);
+  --black: rgb(0, 0, 0);
+  --blue: rgb(24, 79, 228);
+  --yellow: rgb(247, 232, 21);
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-item {
+  font-family: var(--main-font);
+  padding: 2em;
+}
